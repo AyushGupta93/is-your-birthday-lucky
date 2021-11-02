@@ -80,9 +80,14 @@ body{
     padding: 2.5rem;
 }
 
-.watermark span{
+.watermark span a{
 color: black;
 font-weight: bold;
+text-decoration:none;
+}
+
+.watermark span a:hover{
+    color: var(--primary-color);
 }
 
 
